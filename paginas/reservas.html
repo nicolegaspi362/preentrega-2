@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloos.css">
+    <title>reservas</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">inicio</a></li>
+            <li><a href="./nosotros.html">nosotros</a></li>
+            <li><a href="./servicios.html">servicios</a></li>
+            <li><a href="./reservas.html">reservas</a></s></li>
+            <li><a href="./contacto.html">contacto</a></li>
+        </ul>
+    </nav>
+</body>
+    <section id="reservation">
+        <h2>Reservas Online</h2>
+        <form action="submit_reservation.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="event">Tipo de Evento:</label>
+            <select id="event" name="event" required>
+                <option value="boda">Boda</option>
+                <option value="corporativo">Corporativo</option>
+                <option value="fiesta">Fiesta</option>
+            </select>
+            
+            <label for="date">Fecha del Evento:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+    <div class="imagen">
+
+        <img src="../imagenes/410399171_760527559454554_5734290053636853376_n.jpg" width="300px" height="300px"  alt="">
+
+    </div>
+
+        
+    <footer>
+        <p> 2024 Salón de Eventos en caseros. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

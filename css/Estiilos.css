@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d909e0f6;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+#about {
+    background-color: #35abe2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #5a0a39;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+    color: #555;
+}
+
+.about-text h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}
+
+.about-images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-images img:hover {
+    transform: scale(2.05);
+}
+
+.fotomike img:hover {
+    transform: scale(1.05);
+}
